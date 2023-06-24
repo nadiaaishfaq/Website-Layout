@@ -1,0 +1,70 @@
+.flex-container-display2{
+    padding: 64px 0px;
+    margin: 0px 120px;
+}
+.flex-container-display2 .secondDiv{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.flex-container-display2 .content{
+    flex: 1; 
+}
+.flex-container-display2 .secondDiv .content h1{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: left;
+    color: #292B2C;
+    margin: 10px 0;
+}
+.flex-container-display2 .secondDiv .content p{
+    color: #292B2C;
+    font-size: 17px;
+    font-weight: normal;
+}
+.flex-container-display2 .secondDiv .content button{
+    height: 45px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px 30px;
+    position: relative;
+    background-color: #192440;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.flex-container-display2 .secondDiv .picture img{
+    width: 500px;
+    height: 300px;
+    margin-left: 0;
+}
+@media (max-width: 480px){
+    .flex-container-display2{
+        padding: 30px 0px;
+        margin: 0px 20px;
+    }
+    .flex-container-display2 .secondDiv{
+        flex-direction: column;
+    }
+    .flex-container-display2 .secondDiv .content h1{
+        font-size: 2.7rem;
+        text-align: center;
+        line-height: 1;
+    }
+    .flex-container-display2 .secondDiv .content p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .flex-container-display2 .secondDiv .content button{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .flex-container-display2 .secondDiv .picture img{
+        width: 350px;
+        height: 200px;
+    }
+}

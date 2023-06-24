@@ -1,0 +1,73 @@
+.outer{
+    padding: 64px 0px;
+    margin: 0px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.flex-container-feature{
+    background-color: #00FFAD;
+}
+.flex-container-feature h1{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: left;
+    color: #292B2C;
+    margin: 10px 0;
+}
+.flex-container-feature p{
+    color: #292B2C;
+    font-size: 16px;
+    font-weight: normal;
+}
+.flex-container-feature button{
+    height: 45px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px 30px;
+    position: relative;
+    background-color: #192440;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.flex-container-feature img{
+    width: 500px;
+    height: 300px;
+    margin-left: 0;
+}
+@media (max-width: 480px){
+    .outer{
+        padding: 30px 0px;
+        margin: 0px 20px;
+    }
+    .flex-container-feature .outer{
+        flex-direction: column;
+    }
+    .flex-container-feature .outer .imgDiv{
+        order: 2;
+    }
+    .flex-container-feature .outer .contentDiv{
+        order: 1;
+    }
+    .flex-container-feature .outer .contentDiv h1{
+        font-size: 2.7rem;
+        text-align: center;
+        line-height: 1;
+    }
+    .flex-container-feature .outer .contentDiv p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .flex-container-feature .outer .contentDiv button{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .flex-container-feature .outer .imgDiv img{
+        width: 350px;
+        height: 200px;
+    }
+}

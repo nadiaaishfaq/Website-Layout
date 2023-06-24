@@ -1,0 +1,127 @@
+.flex-container-pricing{
+    padding: 64px 0px;
+    margin: 0px 120px;
+}
+.flex-container-pricing h1{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    color: #292B2C;
+    margin-top: 40px;
+}
+.flex-container-pricing .innerPricingDiv{
+    width: 100%;
+display: flex;
+justify-content: center;
+list-style: none;
+}
+.flex-container-pricing .innerPricingDiv .category{
+    width: 380px;
+    height: 450px;
+    margin: 35px -17px;
+    padding: 15px 0px;
+    text-align: center;
+    
+}
+.category h2{
+    color: #292B2C;
+    font-size: 24px;
+    font-weight: 500;
+}
+.category h3{
+    color: #292B2C;
+    font-size: 85px;
+    font-weight: bold;
+    margin: 20px 0 18px;
+}
+.category h3 span{
+    color: #292B2C;
+    font-size: 18px;
+}
+.category ul{
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    padding-left: 0px;
+    margin: 10px 0px;
+}
+.category ul li{
+    margin: 15px 0px;
+}
+.category button{
+    width: 35%;
+    height: 50px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: 25px;
+    border-radius: 22px;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid #192440;
+    color: #192440;
+    background-color: #fff; 
+}
+.category button:hover{
+    background-color: #192440;
+    color: #fff;
+}
+.flex-container-pricing .innerPricingDiv .premiumCategory{
+    width: 380px;
+    height: 450px;
+    margin: 35px -17px;
+    padding: 15px 0px;
+    text-align: center;
+    background-color: #192440;
+    color: #fff;
+    border-radius: 5px;
+}
+.premiumCategory h2{
+    font-size: 24px;
+    font-weight: 500;
+}
+.premiumCategory h3{
+    font-size: 85px;
+    font-weight: bold;
+    margin: 20px 0 18px;
+}
+.premiumCategory h3 span{
+    font-size: 18px;
+}
+.premiumCategory ul{
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    padding-left: 0px;
+    margin: 10px 0px;
+}
+.premiumCategory ul li{
+    margin: 15px 0px;
+}
+.premiumCategory button{
+    width: 35%;
+    height: 50px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: 25px;
+    border-radius: 22px;
+    cursor: pointer;
+    border: none;
+    color: #000;
+    background-color:#00FFAD; 
+}
+.premiumCategory button:hover{
+    color: #fff;
+}
+@media (max-width: 480px){
+    h1{
+        font-size: 2.7rem;
+        text-align: center;
+    }
+    .flex-container-pricing{
+        padding: 30px 0px;
+        margin: 0px 20px;
+    }
+    .flex-container-pricing .innerPricingDiv{
+       flex-direction: column;
+        }
+}
